@@ -1,0 +1,38 @@
+.cmp-data-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro para contraste */
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 700px; /* Ancho máximo aumentado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    text-align: left; /* Alineación a la izquierda */
+  }
+  
+  .cmp-data-container h2 {
+    font-size: 24px;
+    color: #ff9800; /* Color destacado para el título */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .cmp-data-container table {
+    width: 100%; /* Tabla ocupa todo el ancho del card */
+    border-spacing: 0 10px; /* Espaciado entre filas */
+  }
+  
+  .cmp-data-container td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  .cmp-data-container td:first-child {
+    font-weight: bold;
+    color: #ff9800; /* Color destacado para las etiquetas */
+  }
+  
+  .cmp-data-container td:last-child {
+    color: #fff;
+  }
+  
